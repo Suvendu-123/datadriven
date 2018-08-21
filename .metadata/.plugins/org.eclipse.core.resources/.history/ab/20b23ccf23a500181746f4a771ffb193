@@ -1,0 +1,67 @@
+package SeleniumStarting.com.flipkart;
+
+import java.awt.RenderingHints.Key;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Selenium1 
+{
+	WebDriver driver;
+	@BeforeTest
+	public void launch()
+	
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("https://www.flipkart.com/");
+	}
+	@Test(dataProvider="kuchv")
+	public void loginTest(String uname, String pwd)
+	{
+		driver.findElement(By.xpath("//input[@class='_2zrpKA']")).sendKeys(uname);
+		driver.findElement(By.xpath("//input[@class='_2zrpKA _3v41xv']")).sendKeys(pwd,Keys.ENTER);
+		//driver.findElement(By.xpath("//button[@class='_2AkmmA _1LctnI _7UHT_c']")).click();
+	}
+	@AfterTest
+	public void close()
+
+	{
+		driver.close();
+	}
+	public static String excelReader(int rownum,int colnum) throws Exception{
+		FileInputStream fis = new FileInputStream("C:\\Users\\Arina\\Desktop\\sam.xlsx");
+		Workbook wb = new XSSFWorkbook(fis);
+		Sheet sh = wb.getSheet("Sheet1");
+		
+		
+		return sh.getRow(rownum).getCell(colnum).getStringCellValue();
+		
+		
+	}
+	@DataProvider(name="kuchv")
+	public Object[][] login() throws Exception{
+		String [][] arr = new String[3][2];
+		for(int  i=0; i<3; i++){
+			for(int j=0;j<2;j++){
+				arr[i][j]= Selenium1.excelReader(i,j);
+			}
+		}
+		return arr;
+		
+		
+	}
+}

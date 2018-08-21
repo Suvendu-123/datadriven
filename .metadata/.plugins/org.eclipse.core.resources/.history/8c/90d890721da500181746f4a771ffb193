@@ -1,0 +1,37 @@
+package SeleniumStarting.com.flipkart;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class Selenium1 
+{
+	WebDriver driver;
+	@BeforeTest
+	public void launch()
+	
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("https://www.flipkart.com/");
+	}
+	@Test
+	public void loginTest()
+	{
+		driver.findElement(By.xpath("//input[@class='_2zrpKA']")).sendKeys("suvendu");
+		driver.findElement(By.xpath("//input[@class='_2zrpKA _3v41xv']")).sendKeys("suvendu123");
+		driver.findElement(By.xpath("//button[@class='_2AkmmA _1LctnI _7UHT_c']")).click();
+	}
+	@AfterTest
+	public void close()
+
+	{
+		driver.close();
+	}
+}

@@ -1,0 +1,24 @@
+package SeleniumStarting.com.flipkart;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Selenium1 
+{
+	WebDriver driver;
+	public void launch()
+	
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("https://www.flipkart.com/");
+	}
+	
+	public void loginTest()
+	{
+		
+	}
+}

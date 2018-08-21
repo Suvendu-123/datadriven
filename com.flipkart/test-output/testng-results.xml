@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45416" started-at="2018-08-21T09:38:27Z" finished-at="2018-08-21T09:39:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45416" started-at="2018-08-21T09:38:27Z" finished-at="2018-08-21T09:39:12Z">
+      <class name="SeleniumStarting.com.flipkart.Selenium1">
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:SeleniumStarting.com.flipkart.Selenium1@1efef64]" name="launch" duration-ms="15166" started-at="2018-08-21T09:38:28Z" data-provider="kuchv" finished-at="2018-08-21T09:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msubhajitsahoo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monty4171]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:SeleniumStarting.com.flipkart.Selenium1@1efef64]" name="launch" duration-ms="14067" started-at="2018-08-21T09:38:43Z" data-provider="kuchv" finished-at="2018-08-21T09:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monty12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monty123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:SeleniumStarting.com.flipkart.Selenium1@1efef64]" name="launch" duration-ms="15545" started-at="2018-08-21T09:38:57Z" data-provider="kuchv" finished-at="2018-08-21T09:39:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chnadra123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sekhar123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- SeleniumStarting.com.flipkart.Selenium1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

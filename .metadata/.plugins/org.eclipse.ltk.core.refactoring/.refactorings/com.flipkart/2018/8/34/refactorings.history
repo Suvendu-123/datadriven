@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;com.flipkart&apos;&#x0D;&#x0A;- Original project: &apos;com.flipkart&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     generated-sources&#x0D;&#x0A;     generated-test-sources&#x0D;&#x0A;     maven-archiver&#x0D;&#x0A;     maven-status&#x0D;&#x0A;     surefire-reports&#x0D;&#x0A;     com.flipkart-0.0.1-SNAPSHOT.jar" description="Delete elements" element1="target/generated-sources" element2="target/maven-status" element3="target/com.flipkart-0.0.1-SNAPSHOT.jar" element4="target/surefire-reports" element5="target/generated-test-sources" element6="target/maven-archiver" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1534865643236" subPackages="false" version="1.0"/>
+</session>

@@ -327,3 +327,37 @@
 2018-08-21 15:25:02,328 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
 2018-08-21 15:25:02,329 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-08-21 15:25:02,330 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-21 20:51:49,390 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 20:51:49,407 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-21 20:51:49,410 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 20:51:49,410 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-21 20:52:04,991 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-21 20:52:07,901 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumStarting:com.flipkart:0.0.1-SNAPSHOT @ C:\monty\com.flipkart\pom.xml.
+2018-08-21 20:52:08,882 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.flipkart/src/main/java
+2018-08-21 20:52:08,883 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.flipkart/src/test/java
+2018-08-21 20:52:09,414 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2018-08-21 20:52:10,038 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 20:52:10,038 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-21 20:52:10,041 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 20:52:10,041 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-21 20:56:16,162 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 20:56:16,163 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-21 20:56:16,164 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 20:56:16,165 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-21 21:02:33,342 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 21:02:33,342 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-21 21:02:33,344 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 21:02:33,345 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-21 21:04:03,598 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 21:04:03,598 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-21 21:04:03,600 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 21:04:03,600 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-21 21:04:23,690 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-21 21:04:24,461 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumStarting:com.flipkart:0.0.1-SNAPSHOT @ C:\monty\com.flipkart\pom.xml.
+2018-08-21 21:04:25,361 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.flipkart/src/main/java
+2018-08-21 21:04:25,362 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.flipkart/src/test/java
+2018-08-21 21:04:25,558 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-21 21:04:26,133 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 21:04:26,134 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-21 21:04:26,136 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-21 21:04:26,136 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources

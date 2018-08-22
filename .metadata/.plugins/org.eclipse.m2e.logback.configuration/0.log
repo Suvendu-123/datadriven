@@ -361,3 +361,7 @@
 2018-08-21 21:04:26,134 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
 2018-08-21 21:04:26,136 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-08-21 21:04:26,136 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
+2018-08-22 18:19:12,835 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-22 18:19:12,842 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\main\resources
+2018-08-22 18:19:12,844 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-22 18:19:12,844 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\monty\com.flipkart\src\test\resources
